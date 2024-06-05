@@ -1,0 +1,31 @@
+//switch case
+#include <stdio.h>
+
+int main() {
+    int a,b,ch;
+    printf("enter numbers");
+    scanf("%d%d",&a,&b);
+    int sum=a+b;
+    int dif=a-b;
+    int mul=a*b;
+    int divi=a/b;
+    printf("enter choice");
+    scanf("%d",&ch);
+    switch(ch){
+    case 1:
+    printf("%d",sum);
+    break;
+    case 2:
+    printf("%d",dif);
+    break;
+    case 3:
+    printf("%d",mul);
+    break;
+    case 4:
+    printf("%d",divi);
+    break;
+    default:
+    printf("invalid");
+    return 0;
+    }
+}
