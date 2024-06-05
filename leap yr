@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a%4==0 && (a%100!=0 || a%400==0))
+    if(a%4==0 && (a%100!=0 || a%400==0))//as every 4 years is leap yr and centuary yrs anre not leap years only every 400 years is a leap yr
     {
         printf("leap yr");
     }
