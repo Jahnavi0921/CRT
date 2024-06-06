@@ -1,0 +1,12 @@
+//to print 1st 5 numbers using while loop
+#include <stdio.h>
+
+int main() {
+    int a=0;
+    while(a<=4){
+        a++;
+        printf("%d\n",a);
+    }
+    
+    return 0;
+}
