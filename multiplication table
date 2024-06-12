@@ -1,0 +1,13 @@
+// read a num and ptrint its multiplication table
+#include <stdio.h>
+
+int main() {
+   int i,n=8;
+   scanf("%d",&n);
+   for(i=1;i<=10;i++){
+       int a=i*n;
+   printf("i "*" n "=" %d\n",a);
+
+   }
+    return 0;
+}
