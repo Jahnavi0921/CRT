@@ -1,0 +1,111 @@
+Write a program to sum of even and odd elements in an array.
+
+Input Format
+
+Integer corresponds to the size of the array. Read n elements line by line
+
+Constraints
+
+1<=n<=10^7
+
+Output Format
+
+Print Odd sum Print Even sum
+
+Sample Input 0
+
+3
+31
+28
+13
+Sample Output 0
+
+44
+28
+Sample Input 1
+
+6
+12
+100
+28
+31
+22
+45
+Sample Output 1
+
+76
+162
+Submissions: 498
+Max Score: 0
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+​
+6
+int main() {
+7
+    int n;
+8
+    scanf("%d",&n);
+9
+    int a[n],i;
+10
+    int sum_e=0;
+11
+    int sum_o=0;
+12
+    for(i=0;i<n;i++){
+13
+        scanf("%d",&a[i]);
+14
+​
+15
+   
+16
+        
+17
+        if(a[i]%2==0){
+18
+            sum_e=sum_e+a[i];
+19
+        }
+20
+        else{
+21
+            
+22
+            sum_o=sum_o+a[i];
+23
+        }
+24
+    }
+25
+    printf("%d\n%d",sum_o,sum_e);
+26
+    
+27
+    
+28
+​
+29
+​
+30
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+31
+    return 0;
+32
+}
+33
+​
